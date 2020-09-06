@@ -33,7 +33,7 @@ const GlobalChart = ({ display }) => {
 
   // global historical data
   const [chartData, weeklyData] = useGlobalChartData()
-
+  console.log(chartData)
   // switch between voluem and liquidity on larger screens
   function toggleView() {
     if (chartView === CHART_VIEW.VOLUME) {
