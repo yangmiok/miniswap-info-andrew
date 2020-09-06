@@ -1,7 +1,7 @@
 {
   "name": "uniswap-info-andrew",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": ".",
   "dependencies": {
     "@popperjs/core": "^2.4.2",
