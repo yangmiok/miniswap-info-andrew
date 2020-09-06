@@ -145,7 +145,7 @@ const GlobalChart = ({ display }) => {
               active={localWindow === timeframeOptions.ALL_TIME}
               onClick={() => setLocalWindow(timeframeOptions.ALL_TIME)}
             >
-              All Time1
+              All Time 🧱 need to 👌
             </OptionButton>
           </Row>
         </RowBetween>

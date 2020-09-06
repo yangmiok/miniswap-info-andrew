@@ -144,7 +144,7 @@ function GlobalPage({ history }) {
                 <AutoColumn gap="40px">
                   <AutoColumn gap="20px">
                     <RowBetween>
-                      <TYPE.main>Volume (24hrs)</TYPE.main>
+                      <TYPE.main>Volume (24hrs) 🌹</TYPE.main>
                       <div />
                     </RowBetween>
                     <RowBetween align="flex-end">
@@ -156,7 +156,7 @@ function GlobalPage({ history }) {
                   </AutoColumn>
                   <AutoColumn gap="20px">
                     <RowBetween>
-                      <TYPE.main>Total Liquidity</TYPE.main>
+                      <TYPE.main>Total Liquidity  🧱 mobile</TYPE.main>
                       <div />
                     </RowBetween>
                     <RowBetween align="flex-end">
@@ -168,7 +168,7 @@ function GlobalPage({ history }) {
                   </AutoColumn>
                   <AutoColumn gap="20px">
                     <RowBetween>
-                      <TYPE.main>Transactions (24hrs)</TYPE.main>
+                      <TYPE.main>Transactions (24hrs) 🌹 mobile</TYPE.main>
                       <div />
                     </RowBetween>
                     <RowBetween align="flex-end">
@@ -205,7 +205,7 @@ function GlobalPage({ history }) {
             {showPriceCard && <UniPrice />}
             <AutoColumn gap="20px">
               <RowBetween>
-                <TYPE.main>Miniswap ETH price</TYPE.main>
+                <TYPE.main>Miniswap ETH price 🧱</TYPE.main>
                 <TokenLogo address={'0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'} />
               </RowBetween>
               <RowBetween align="flex-end">
@@ -221,7 +221,7 @@ function GlobalPage({ history }) {
           <Panel>
             <AutoColumn gap="20px">
               <RowBetween>
-                <TYPE.main>Total Liquidity</TYPE.main>
+                <TYPE.main>Total Liquidity  🧱 [desktop]</TYPE.main>
                 <div />
               </RowBetween>
               <RowBetween align="flex-end">
@@ -235,7 +235,7 @@ function GlobalPage({ history }) {
           <Panel>
             <AutoColumn gap="20px">
               <RowBetween>
-                <TYPE.main>Volume (24hrs)</TYPE.main>
+                <TYPE.main>Volume (24hrs) 🌹 [desktop]</TYPE.main>
                 <div />
               </RowBetween>
               <RowBetween align="flex-end">
@@ -249,7 +249,7 @@ function GlobalPage({ history }) {
           <Panel>
             <AutoColumn gap="20px">
               <RowBetween>
-                <TYPE.main>Transactions (24hrs)</TYPE.main>
+                <TYPE.main>Transactions (24hrs) desktop 🌹</TYPE.main>
                 <div />
               </RowBetween>
               <RowBetween align="flex-end">
